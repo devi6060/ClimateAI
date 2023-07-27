@@ -233,6 +233,7 @@
                 humidityElement.textContent = `Humidity: ${weatherData.humidity}%`;
                 windSpeedElement.textContent = `Wind Speed: ${weatherData.windSpeed} m/s`;
 
+                
                 // Update background image based on weather conditions
                 const bodyElement = document.body;
                 bodyElement.className = `weather-${getWeatherCondition(weatherData.icon)}`;
